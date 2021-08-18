@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Traveling Lists";
+}
+
+
+<div class="container mt-5">
+    <div class="row gx-5">
+        <div class="col">
+            <div class="p-2 border bg-light card h-100">
+                <a asp-controller="Home" asp-action="Create" class="text-decoration-none text-dark">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="display-2">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </h1>
+                        <h4 class="card-title">Create</h4>
+                        <p class="card-text">Click here to create new travelling list</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="p-2 border bg-light card h-100">
+                <a asp-controller="Home" asp-action="List" class="text-decoration-none text-dark">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="display-2">
+                            <ion-icon name="list-outline"></ion-icon>
+                        </h1>
+                        <h4 class="card-title">Lists</h4>
+                        <p class="card-text">See all the lists created so far. Edit, delete, etc</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
